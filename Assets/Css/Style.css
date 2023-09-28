@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    /* border: 1px solid red; */
+}
+body {
+    padding: 0 25%;
+    background-image: url('../../img/bg.png');
+}
+/* main {
+    width: 40%;
+    margin: .5rem auto;
+    padding: 15px;
+    border: 1px solid #3e3744;
+    border-radius: 10px;
+    
+} */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+header div {
+    border: 1px solid white(255, 255, 255);
+    padding: 15px;
+    
+}
+header div:hover {
+    background-color: #662F32;
+    color: white;
+}
+main {background-color: rgb(255, 255, 255);
+
+}
