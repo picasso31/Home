@@ -6,7 +6,7 @@
     /* border: 1px solid red; */
 }
 body {
-    padding: 0 25%;
+    padding: 0 20%;
     background-image: url('../../img/bg.png');
 }
 /* main {
@@ -29,9 +29,59 @@ header div {
     
 }
 header div:hover {
+    
     background-color: #662F32;
     color: white;
 }
-main {background-color: rgb(255, 255, 255);
+main {background-color: rgb(255, 255, 255); 
 
+}
+
+h1 {
+    padding: 80px;
+    text-align: center;
+ 
+}
+  
+      
+
+ span {
+    color:#692E32 ;
+ }
+ h1,span {
+    font-size:50px;
+  
+ }
+ main h1 {
+    align-items: baseline; 
+ }
+
+.salon { width: 100%;
+
+}
+.sect-art {
+    padding: 20px;
+    display: flex;  justify-content: space-around;
+    align-items: stretch;
+    
+}
+
+.art-article{
+       
+    width: 30%;
+    margin: .2rem auto;
+    padding: 25px;
+    border: 1px solid #3e3744;
+    border-radius: 1px;
+    background-color:#645955;
+           
+}
+.sect-art h2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #662F32;
+    padding: 15px;
+    margin: .5rem;
+    
+    
 }
