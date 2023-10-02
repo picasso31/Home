@@ -9,14 +9,6 @@ body {
     padding: 0 20%;
     background-image: url('../../img/bg.png');
 }
-/* main {
-    width: 40%;
-    margin: .5rem auto;
-    padding: 15px;
-    border: 1px solid #3e3744;
-    border-radius: 10px;
-    
-} */
 
 header {
     display: flex;
@@ -61,7 +53,8 @@ h1 {
 }
 .sect-art {
     padding: 20px;
-    display: flex;  justify-content: space-around;
+    display: flex;  
+    justify-content: space-around;
     align-items: stretch;
     
 }
@@ -69,19 +62,57 @@ h1 {
 .art-article{
        
     width: 30%;
-    margin: .2rem auto;
-    padding: 25px;
+    margin: .5rem auto;
     border: 1px solid #3e3744;
     border-radius: 1px;
     background-color:#645955;
+    border: solid red;
            
 }
 .sect-art h2{
     display: flex;
     justify-content: space-around;
     background-color: #662F32;
-    padding: 15px;
-    margin: .5rem;
+    padding: 20px;   
+}
+
+
+.salon2,.canape-2,.chambre1 {
+    width:100%;
+}
+
+section {
+    background-color: white;
+    color: rgb(255, 255, 255);
+}
+
+/* .plus-img { 
+    border: solid red;
+} */
+.div-btn{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+   
     
+}
+h3 {
+    font-weight: 100;
+    color: black;
+}
+.fleche{
+
+}
+article .fleche {
+color: black;
+}
+.fleche ul,li,h3 {
+    padding-bottom:2rem;
     
+   list-style-image: url(./img/arrow.png)
+      }
+
+h3, strong, p {
+padding-bottom: 2rem;
+padding: 20px;
 }
